@@ -56,7 +56,7 @@ To run this project locally, follow the steps below:
 
    ```bash
    npm start
-Open your browser and go to http://localhost:3000 to see the website.
+Open your browser and go to [http://localhost:5173](http://localhost:5173/) to see the website.
 
 ## Usage
 The website is fully responsive and can be viewed on any device.
