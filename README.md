@@ -1,6 +1,6 @@
 # Zentry - Award-Winning Website
 
-Welcome to **Zentry**, an award-winning website designed with creativity, modern web design principles, and exceptional user experience. This project features advanced UI elements, custom animations, and smooth interactions, showcasing the power of React, Tailwind CSS, and SVG filters for modern web development.
+Welcome to [Zentry](https://zentry-awward-win-website.vercel.app/), a website dedicated to the YouTube channel [JavaScript Mastery](https://www.youtube.com/watch?v=zA9r5zTllx4&t=8808s) that takes JavaScript to the next level. This project features advanced UI elements, custom animations, and smooth interactions, showcasing the power of React, Tailwind CSS, and SVG filters for modern web development.
 
 ## Table of Contents
 
@@ -11,7 +11,6 @@ Welcome to **Zentry**, an award-winning website designed with creativity, modern
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -43,68 +42,61 @@ To run this project locally, follow the steps below:
 
    ```bash
    git clone https://github.com/YuiSurbhi/zentry-award-winning-website.git
-Navigate into the project directory:
+2. Navigate into the project directory:
 
-bash
-Copy code
-cd zentry-award-winning-website
-Install the dependencies:
+   ```bash
+   cd zentry-award-winning-website
+   
+3. Install the dependencies:
 
-bash
-Copy code
-npm install
-Run the development server:
+   ```bash
+   npm install
+   
+4. Run the development server:
 
-bash
-Copy code
-npm start
+   ```bash
+   npm start
 Open your browser and go to http://localhost:3000 to see the website.
 
-Usage
+## Usage
 The website is fully responsive and can be viewed on any device.
 Customize the images and text content in the src folder to personalize the website.
 Update the SVG filters or animations in the index.css file for unique effects.
 The project uses Tailwind CSS, so you can add your own styles by editing the tailwind.config.js or creating custom classes in the index.css.
-Folder Structure
+
+## Folder Structure
 Here’s a quick overview of the folder structure:
 
-graphql
-Copy code
-zentry-award-winning-website/
-├── public/
-│   └── index.html        # Main HTML file
-├── src/
-│   ├── assets/           # Store images, fonts, etc.
-│   ├── components/       # React components like Button, ImageClipBox
-│   ├── styles/           # Custom CSS files (index.css)
-│   ├── App.jsx           # Main App component
-│   ├── index.jsx         # Entry point for React app
-│   └── tailwind.config.js # Tailwind CSS configuration file
-├── package.json          # Project metadata and dependencies
-├── README.md             # This file
-└── .gitignore            # Specifies files to be ignored by Git
-Contributing
+  ```graphql
+  zentry-award-winning-website/
+  ├── public/
+  │   ├── audio/            # Store audio files
+  |   ├── fonts/            # Store fonts
+  |   ├── img/              # Store images
+  |   ├── videos/           # Store videos
+  |   └── my-logo.png       # Logo of the website  
+  ├── src/
+  │   ├── assets/           # Static assets
+  │   ├── components/       # React components like Button, ImageClipBox
+  │   ├── App.jsx           # Main App component
+  |   ├── index.css         # Custom CSS files
+  │   └── main.jsx          # Entry point for React app
+  ├── gitignore             # Specifies files to be ignored by Git
+  ├── index.html            # Main HTML file
+  ├── package.json          # Project metadata and dependencies
+  ├── README.md             # This file
+  ├── tailwind.config.js    # Tailwind CSS configuration file
+  └── vite.config.js
+  ```
+## Contributing
 We welcome contributions to this project! Here’s how you can help:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request to the main branch.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Fork the repository.<br />
+2. Create a new branch (`git checkout -b feature-branch`).<br />
+3. Make your changes.<br />
+4. Commit your changes (`git commit -m 'Add new feature'`).<br />
+5. Push to the branch (`git push origin feature-branch`).<br />
+6. Open a pull request to the main branch.<br />
+---
 
-Thank you for exploring Zentry. We hope this project inspires you to build your own award-winning websites!
-
-vbnet
-Copy code
-
-### Notes:
-- **Installation Instructions**: The README includes step-by-step instructions to clone and run the project locally.
-- **Tech Stack**: Lists the main technologies used in your project.
-- **Folder Structure**: Provides a brief description of the folder layout.
-- **Contribution Guidelines**: Encourages others to contribute with a standard Git workflow.
-- **License**: If you haven’t added a license file yet, you might want to consider adding one, such as MIT, to clarify how others can use your code.
-
-This should help anyone looking at your repository understand the project's setup and usage quickly
+Thank you for exploring Zentry. I hope this project inspires you to build your own Metagame website!
