@@ -1,10 +1,11 @@
 import React from 'react'
 import Button from './Button'
+import AnimatedTitle from './AnimatedTitle'
 
 const ImageClipBox = ({src, clipClass}) => (
   <div className={clipClass}>
     <img 
-      src={src} 
+      src={src}
     />
   </div>
 )
@@ -13,17 +14,19 @@ const Contact = () => {
   return (
     <div 
       id='contact'
-      className='my-20 min-h-96 w-screen px-10'
+      className='my-28 min-h-[100vh] w-screen px-10'
     >
-      <div className='relative rounded-lg bg-black py-24 text-blue-50 sm:overflow-hidden'>
+      <div className='relative rounded-lg bg-black py-28 text-blue-50 sm:overflow-hidden'>
         <div className='absolute -left-20 top-0 hidden h-full w-72 overflow-hidden sm:block lg:left-20 lg:w-96'>
           <ImageClipBox 
             clipClass='contact-clip-path-1'
             src='img/contact-1.webp'
+            alt="Contact Image 1"
           />
           <ImageClipBox 
             clipClass='contact-clip-path-2 lg:translate-y-40 translate-y-60'
             src='img/contact-2.webp'
+            alt="Contact Image 2"
           />
         </div>
 
@@ -31,10 +34,12 @@ const Contact = () => {
           <ImageClipBox 
             clipClass='absolute md:scale-125'
             src='img/swordman-partial.webp'
+            alt="Swordman Partial Image"
           />
           <ImageClipBox 
             clipClass='sword-man-clip-path md:scale-125'
             src='img/swordman.webp'
+            alt="Swordman Image"
           />
         </div>
 
@@ -42,9 +47,11 @@ const Contact = () => {
           <p className='font-general text-[10px] uppercase'>
             join zentry
           </p>
-          <p className='special-font mt-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem]'>
-            Let's b<b>u</b>ild the <br /> new era of <br /> g<b>a</b>ming t<b>o</b>gether
-          </p>
+
+          <AnimatedTitle 
+            containerClass='special-font mt-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem]'
+            title="Let's b<b>u</b>ild the <br /> new era of g<b>a</b>ming <br /> t<b>o</b>gether."
+          />
 
           <Button
             title='contact us'
