@@ -271,13 +271,3 @@ body {
     opacity: 0.8;
   }
 }
-
-.sword-man-clip-path {
-  position: absolute;
-  z-index: 20; /* Same for this image */
-}
-
-.animated-title {
-  position: relative;
-  z-index: 0; /* Text stays behind the images */
-}

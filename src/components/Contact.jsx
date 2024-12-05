@@ -49,7 +49,7 @@ const Contact = () => {
           </p>
 
           <AnimatedTitle 
-            containerClass='special-font mt-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem]'
+            containerClass='special-font mt-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem] mix-blend-difference'
             title="Let's b<b>u</b>ild the <br /> new era of g<b>a</b>ming <br /> t<b>o</b>gether."
           />
 
