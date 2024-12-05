@@ -6,7 +6,7 @@ const links = [
   {href: 'https://www.linkedin.com/in/surbhi-verma-a63881295/', icon: <FaLinkedin />},
   {href: 'https://github.com/YuiSurbhi', icon: <FaGithub />},
   {href: 'https://www.instagram.com/yuisurbhi/', icon: <FaInstagram />},
-  {href: 'https://x.com/YuiSurbhi', icon: <FaTwitter/>}
+  {href: 'https://x.com/_surbhi_verma', icon: <FaTwitter/>}
 ]
 
 const Footer = () => {
