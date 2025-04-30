@@ -59,10 +59,10 @@ To run this project locally, follow the steps below:
 Open your browser and go to [http://localhost:5173](http://localhost:5173/) to see the website.
 
 ## Usage
-The website is fully responsive and can be viewed on any device.
-Customize the images and text content in the src folder to personalize the website.
-Update the SVG filters or animations in the index.css file for unique effects.
-The project uses Tailwind CSS, so you can add your own styles by editing the tailwind.config.js or creating custom classes in the index.css.
+- The website is fully responsive and can be viewed on any device.</br>
+- Customize the images and text content in the src folder to personalize the website.</br>
+- Update the SVG filters or animations in the index.css file for unique effects.</br>
+- The project uses Tailwind CSS, so you can add your own styles by editing the tailwind.config.js or creating custom classes in the index.css.</br>
 
 ## Folder Structure
 Here’s a quick overview of the folder structure:
